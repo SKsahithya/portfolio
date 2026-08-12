@@ -202,7 +202,7 @@ function App() {
 
               <div className="project-links">
                 <a
-                  href="#"
+                  href="https://github.com/SKsahithya/Project-Tracker-System"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -289,7 +289,41 @@ function App() {
           </div>
 
         </div>
+        {/* Project 4 */}
+<div className="project-card">
+  <div className="project-content">
+
+    <span className="project-number">04</span>
+
+    <h3>Dual-Eye EfficientNet Retinal Disease Detection</h3>
+
+    <p>
+      A deep learning system that uses paired left and right eye fundus
+      images with a dual-branch EfficientNet-B4 architecture to detect
+      multiple retinal diseases and provide explainable predictions.
+    </p>
+
+    <div className="project-tech">
+      <span>Python</span>
+      <span>TensorFlow</span>
+      <span>EfficientNet-B4</span>
+      <span>Grad-CAM</span>
+    </div>
+
+    <div className="project-links">
+      <a
+        href="https://github.com/SKsahithya/Dual-Eye-EfficientNet-Retinal-Disease-Detection"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub →
+      </a>
+    </div>
+
+  </div>
+</div>
       </section>
+      
 
       {/* Experience */}
       <section id="experience" className="experience-section">
