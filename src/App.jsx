@@ -304,7 +304,7 @@ function App() {
 
               <div className="project-links">
                 <a
-                  href="https://github.com/SKsahithya/Dual-Eye-EfficientNet-Retinal-Disease-Detection"
+                  href="https://github.com/SKsahithya/dual-eye-eye-disease-detection"
                   target="_blank"
                   rel="noreferrer"
                 >
