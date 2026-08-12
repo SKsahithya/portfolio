@@ -208,14 +208,6 @@ function App() {
                 >
                   GitHub →
                 </a>
-
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo →
-                </a>
               </div>
 
             </div>
@@ -243,7 +235,7 @@ function App() {
 
               <div className="project-links">
                 <a
-                  href="#"
+                  href="https://github.com/SKsahithya"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -277,7 +269,42 @@ function App() {
 
               <div className="project-links">
                 <a
-                  href="#"
+                  href="https://github.com/SKsahithya/Minestone_MUSIC_Project_1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub →
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          {/* Project 4 */}
+          <div className="project-card">
+            <div className="project-content">
+
+              <span className="project-number">04</span>
+
+              <h3>Dual-Eye EfficientNet Retinal Disease Detection</h3>
+
+              <p>
+                A deep learning system that uses paired left and right eye
+                fundus images with a dual-branch EfficientNet-B4 architecture
+                to detect multiple retinal diseases and provide explainable
+                predictions.
+              </p>
+
+              <div className="project-tech">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>EfficientNet-B4</span>
+                <span>Grad-CAM</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/SKsahithya/Dual-Eye-EfficientNet-Retinal-Disease-Detection"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -289,41 +316,7 @@ function App() {
           </div>
 
         </div>
-        {/* Project 4 */}
-<div className="project-card">
-  <div className="project-content">
-
-    <span className="project-number">04</span>
-
-    <h3>Dual-Eye EfficientNet Retinal Disease Detection</h3>
-
-    <p>
-      A deep learning system that uses paired left and right eye fundus
-      images with a dual-branch EfficientNet-B4 architecture to detect
-      multiple retinal diseases and provide explainable predictions.
-    </p>
-
-    <div className="project-tech">
-      <span>Python</span>
-      <span>TensorFlow</span>
-      <span>EfficientNet-B4</span>
-      <span>Grad-CAM</span>
-    </div>
-
-    <div className="project-links">
-      <a
-        href="https://github.com/SKsahithya/Dual-Eye-EfficientNet-Retinal-Disease-Detection"
-        target="_blank"
-        rel="noreferrer"
-      >
-        GitHub →
-      </a>
-    </div>
-
-  </div>
-</div>
       </section>
-      
 
       {/* Experience */}
       <section id="experience" className="experience-section">
@@ -334,6 +327,7 @@ function App() {
 
         <div className="experience-container">
 
+          {/* Infosys Experience */}
           <div className="experience-card">
             <div className="experience-header">
 
@@ -362,8 +356,20 @@ function App() {
               <span>MusicGen</span>
               <span>AudioCraft</span>
             </div>
+
+            <div className="project-links">
+              <a
+                href="https://github.com/SKsahithya/Minestone_MUSIC_Project_1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Project GitHub →
+              </a>
+            </div>
+
           </div>
 
+          {/* Smart Interviews */}
           <div className="experience-card">
             <div className="experience-header">
 
@@ -391,6 +397,7 @@ function App() {
               <span>C++</span>
               <span>Problem Solving</span>
             </div>
+
           </div>
 
         </div>
